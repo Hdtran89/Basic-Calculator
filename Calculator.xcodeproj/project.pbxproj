@@ -14,13 +14,17 @@
 		E3859C4417F8F39E00DCE15E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E3859C4317F8F39E00DCE15E /* main.m */; };
 		E3859C4817F8F39E00DCE15E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E3859C4717F8F39E00DCE15E /* AppDelegate.m */; };
 		E3859C4B17F8F39E00DCE15E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3859C4917F8F39E00DCE15E /* Main.storyboard */; };
-		E3859C4E17F8F39E00DCE15E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3859C4D17F8F39E00DCE15E /* ViewController.m */; };
-		E3859C5017F8F39E00DCE15E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3859C4F17F8F39E00DCE15E /* Images.xcassets */; };
 		E3859C5717F8F39E00DCE15E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3859C5617F8F39E00DCE15E /* XCTest.framework */; };
 		E3859C5817F8F39E00DCE15E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3859C3717F8F39E00DCE15E /* Foundation.framework */; };
 		E3859C5917F8F39E00DCE15E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3859C3B17F8F39E00DCE15E /* UIKit.framework */; };
 		E3859C6117F8F39E00DCE15E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E3859C5F17F8F39E00DCE15E /* InfoPlist.strings */; };
 		E3859C6317F8F39E00DCE15E /* CalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E3859C6217F8F39E00DCE15E /* CalculatorTests.m */; };
+		E3859C7217F8F3FA00DCE15E /* calculator-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = E3859C6D17F8F3FA00DCE15E /* calculator-icon.png */; };
+		E3859C7317F8F3FA00DCE15E /* calculator-icon 1.png in Resources */ = {isa = PBXBuildFile; fileRef = E3859C6E17F8F3FA00DCE15E /* calculator-icon 1.png */; };
+		E3859C7417F8F3FA00DCE15E /* frontscreen.png in Resources */ = {isa = PBXBuildFile; fileRef = E3859C6F17F8F3FA00DCE15E /* frontscreen.png */; };
+		E3859C7517F8F3FA00DCE15E /* frontscreen1.png in Resources */ = {isa = PBXBuildFile; fileRef = E3859C7017F8F3FA00DCE15E /* frontscreen1.png */; };
+		E3859C7617F8F3FA00DCE15E /* frontscreen2.png in Resources */ = {isa = PBXBuildFile; fileRef = E3859C7117F8F3FA00DCE15E /* frontscreen2.png */; };
+		E3DFA76517FBD3D700F3FEED /* CalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3DFA76317FBD3D700F3FEED /* CalculatorViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +49,19 @@
 		E3859C4617F8F39E00DCE15E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E3859C4717F8F39E00DCE15E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		E3859C4A17F8F39E00DCE15E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E3859C4C17F8F39E00DCE15E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E3859C4D17F8F39E00DCE15E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E3859C4F17F8F39E00DCE15E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E3859C5517F8F39E00DCE15E /* CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3859C5617F8F39E00DCE15E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		E3859C5E17F8F39E00DCE15E /* CalculatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CalculatorTests-Info.plist"; sourceTree = "<group>"; };
 		E3859C6017F8F39E00DCE15E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E3859C6217F8F39E00DCE15E /* CalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculatorTests.m; sourceTree = "<group>"; };
+		E3859C6D17F8F3FA00DCE15E /* calculator-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "calculator-icon.png"; sourceTree = "<group>"; };
+		E3859C6E17F8F3FA00DCE15E /* calculator-icon 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "calculator-icon 1.png"; sourceTree = "<group>"; };
+		E3859C6F17F8F3FA00DCE15E /* frontscreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frontscreen.png; sourceTree = "<group>"; };
+		E3859C7017F8F3FA00DCE15E /* frontscreen1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frontscreen1.png; sourceTree = "<group>"; };
+		E3859C7117F8F3FA00DCE15E /* frontscreen2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frontscreen2.png; sourceTree = "<group>"; };
+		E3DFA76217FBD3D700F3FEED /* CalculatorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatorViewController.h; sourceTree = SOURCE_ROOT; };
+		E3DFA76317FBD3D700F3FEED /* CalculatorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorViewController.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,11 +121,11 @@
 		E3859C3D17F8F39E00DCE15E /* Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				E3DFA76217FBD3D700F3FEED /* CalculatorViewController.h */,
+				E3DFA76317FBD3D700F3FEED /* CalculatorViewController.m */,
+				E3859C4917F8F39E00DCE15E /* Main.storyboard */,
 				E3859C4617F8F39E00DCE15E /* AppDelegate.h */,
 				E3859C4717F8F39E00DCE15E /* AppDelegate.m */,
-				E3859C4917F8F39E00DCE15E /* Main.storyboard */,
-				E3859C4C17F8F39E00DCE15E /* ViewController.h */,
-				E3859C4D17F8F39E00DCE15E /* ViewController.m */,
 				E3859C4F17F8F39E00DCE15E /* Images.xcassets */,
 				E3859C3E17F8F39E00DCE15E /* Supporting Files */,
 			);
@@ -126,6 +135,7 @@
 		E3859C3E17F8F39E00DCE15E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E3859C6C17F8F3B700DCE15E /* images */,
 				E3859C3F17F8F39E00DCE15E /* Calculator-Info.plist */,
 				E3859C4017F8F39E00DCE15E /* InfoPlist.strings */,
 				E3859C4317F8F39E00DCE15E /* main.m */,
@@ -150,6 +160,18 @@
 				E3859C5F17F8F39E00DCE15E /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E3859C6C17F8F3B700DCE15E /* images */ = {
+			isa = PBXGroup;
+			children = (
+				E3859C6D17F8F3FA00DCE15E /* calculator-icon.png */,
+				E3859C6E17F8F3FA00DCE15E /* calculator-icon 1.png */,
+				E3859C6F17F8F3FA00DCE15E /* frontscreen.png */,
+				E3859C7017F8F3FA00DCE15E /* frontscreen1.png */,
+				E3859C7117F8F3FA00DCE15E /* frontscreen2.png */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,9 +250,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3859C5017F8F39E00DCE15E /* Images.xcassets in Resources */,
 				E3859C4217F8F39E00DCE15E /* InfoPlist.strings in Resources */,
+				E3859C7217F8F3FA00DCE15E /* calculator-icon.png in Resources */,
+				E3859C7517F8F3FA00DCE15E /* frontscreen1.png in Resources */,
 				E3859C4B17F8F39E00DCE15E /* Main.storyboard in Resources */,
+				E3859C7317F8F3FA00DCE15E /* calculator-icon 1.png in Resources */,
+				E3859C7617F8F3FA00DCE15E /* frontscreen2.png in Resources */,
+				E3859C7417F8F3FA00DCE15E /* frontscreen.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,9 +275,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3859C4E17F8F39E00DCE15E /* ViewController.m in Sources */,
 				E3859C4817F8F39E00DCE15E /* AppDelegate.m in Sources */,
 				E3859C4417F8F39E00DCE15E /* main.m in Sources */,
+				E3DFA76517FBD3D700F3FEED /* CalculatorViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,6 +486,7 @@
 				E3859C6817F8F39E00DCE15E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E3859C6917F8F39E00DCE15E /* Build configuration list for PBXNativeTarget "CalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +495,7 @@
 				E3859C6B17F8F39E00DCE15E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
